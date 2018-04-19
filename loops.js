@@ -24,7 +24,7 @@ function doWhileLoop(array) {
     return Math.random() >= 0.5 // Returns a random number between 0 (inclusive) and 1 (exclusive)
   }
   do{
-    array.pop()
+    array.pop();
   } while(array.length > 0 && maybeTrue());
   return(array);
 }
